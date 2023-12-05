@@ -89,7 +89,7 @@ export default function EditTopicForm({ id, date, time, telefon, isChecked }) {
                     150,000 so`m</span> to`lov qilishingiz kerak bo`ladi,hamda to`lov skrinshotini yuboring.</h6>
                 <div className='flex justify-between mt-3'>
                     <h1 className="text-2xl mt-2 mb-3 lg:text-4xl font-bold text-white">{generatedNumber}</h1>
-                    <button className='text-3xl lg:text-5xl green cursor-pointer text-white' onClick={handleCopyClick}>Nusxa</button>
+                    <button className='text-xl lg:text-5xl  cursor-pointer text-white' onClick={handleCopyClick}>Nusxa</button>
                 </div>
             </div>
 
