@@ -56,7 +56,7 @@ export default function EditTopicForm({ id, date, time, telefon, isChecked }) {
                 return;
             }
 
-            const res = await fetch(`http://localhost:3000/api/topics/${id}`, {
+            const res = await fetch(`/api/topics/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-type": "application/json",
