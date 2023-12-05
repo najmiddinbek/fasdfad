@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import CreditCard from "../public/CreditCard image.jpg"
 import Image from "next/image"
 import { toast } from "react-toastify";
 
@@ -84,7 +83,6 @@ export default function EditTopicForm({ id, date, time, telefon, isChecked }) {
             <input type="number" className="py-2 text-white px-2 border-2 bg-[#1111] rounded-md" placeholder="Telefon raqamingizni yozing..." onChange={(e) => setNewTelefon(e.target.value)} value={newTelefon} />
 
             <div>
-                <Image src={CreditCard} alt='Image' />
                 <h6 className='mt-3 text-white'>Pastdagi karta raqamga <span className='text-red-600'>
                     150,000 so`m</span> to`lov qilishingiz kerak bo`ladi,hamda to`lov skrinshotini yuboring.</h6>
                 <div className='flex justify-between mt-3'>

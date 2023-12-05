@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { toast } from "react-toastify";
 import Image from "next/image";
-import CreditCard from "../../public/CreditCard image.jpg"
 
 export default function AddTopic() {
   const [title, setTitle] = useState("");

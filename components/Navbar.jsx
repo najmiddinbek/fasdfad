@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link";
-import Logo from "../public/Futbolchi rasmi.png";
 import Image from "next/image";
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
